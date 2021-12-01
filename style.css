@@ -19,7 +19,7 @@ html, body {
 
 
 main {
-    margin: 0 auto;
+    margin: 50px auto;
     width: 700px;
     position: relative;
 }
@@ -27,6 +27,7 @@ main {
 
 article {
     text-align: justify;
+    padding: 10px;
 }
 
 
@@ -46,8 +47,13 @@ footer {
 
 img.zweefrechts {
     float: right;
-    margin-right: 15px;
-    width: 200px;
+    margin-right: 0px;
+    margin-left: 10px;
+    width: 250px;
+}
+
+.floatclear{
+  clear: both;
 }
 
 .smalltext {
@@ -63,6 +69,19 @@ a:hover {
     text-decoration: underline;
 }
 
+.kolomlinks {
+  float: left;
+  width: 300px;
+}
+
+.kolomrechts {
+  float: left;
+  width: calc(100% - 260px - 40px);
+}
+
+.floatclear {
+  clear: both;
+}
 
 /* navigatiebalk */
 nav ul {
