@@ -71,16 +71,24 @@ a:hover {
 
 .kolomlinks {
   float: left;
+  margin-left: 0px;
+  margin-right: 10px;
   width: 300px;
 }
 
 .kolomrechts {
   float: left;
-  width: calc(100% - 260px - 40px);
+  width: calc(100% - 270px - 40px);
 }
 
 .floatclear {
   clear: both;
+}
+
+#blockcentreren {
+  width: 600px;
+  margin: auto;
+  padding-top: 10px;
 }
 
 /* navigatiebalk */
