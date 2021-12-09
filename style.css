@@ -1,4 +1,4 @@
-/* basis instellingen */
+ds/* basis instellingen */
 * {
 border: solid 2px black;
 overflow: auto;
@@ -57,6 +57,12 @@ img.zweefrechts {
     width: 250px;
 }
 
+img.zweeflinks {
+    float: right;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    width: 180px;
+}
 
 
 .floatclear{
